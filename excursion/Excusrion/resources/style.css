@@ -1,13 +1,76 @@
-.h1{
-    font-size: large;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    position: relative;
-
-
-  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.body{
+
+body {
     background-color: black;
-    
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+video {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px 0;
+}
+
+.download-links {
+    margin: 20px 0;
+}
+
+.download-btn {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 15px 30px;
+    background-color: #555;
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.description {
+    font-size: 1.8em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.image-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.large-image {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.small-image {
+    width: 50%;
+    max-width: 300px;
+}
+
+.coming-soon {
+    font-size: 1.8em;
+    margin-top: 40px;
 }
